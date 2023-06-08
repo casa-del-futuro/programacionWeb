@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+}
+
+.carta {
+    background-color: green;
+    width: 441px;
+    display: inline-block;
+}
+
+.carta img {
+    width: 441px;
+}
+
+
+footer {
+    background-color: greenyellow;
+}
