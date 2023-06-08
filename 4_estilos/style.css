@@ -1,0 +1,15 @@
+body {
+    background-color: darkred;
+}
+.carta{ 
+    background-color: blanchedalmond;
+    width: 300px;
+}
+.carta img{
+    width: 300px;
+
+}
+
+footer{
+    background-color: aliceblue;
+}
