@@ -1,0 +1,16 @@
+body{
+    background-color: greenyellow;
+}
+
+.carta{
+    background-color: violet;
+    width: 200px;
+}
+
+.carta img{
+    width: 200px;
+}
+
+footer{
+    background-color: gainsboro;
+}
