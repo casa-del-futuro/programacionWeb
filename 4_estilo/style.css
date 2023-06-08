@@ -1,0 +1,19 @@
+body{
+    background-color: aquamarine;
+}
+/* Estilo cartas */
+.carta {
+    background-color: aliceblue;
+    width: 400px;
+    display: inline-block; /* hace que baje la imagen */
+}
+
+/* Estilos imagen */
+.carta img{
+    width: 400px;
+    background-color: rgb(28, 202, 66);
+}
+/* Estilo footer */
+footer{
+    background-color: rgb(207, 207, 50);
+}
