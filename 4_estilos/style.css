@@ -1,20 +1,13 @@
 body{
-    background-color: greenyellow;
+    background-color: black;
 }
 
-/* Estilos cartas */
-.carta{
-    background-color: violet;
-    width: 200px;
-    display: inline-block;
+article.carta{
+    background-color: cornsilk;
+    width: 165px;
 }
 
-/* Estilos imagen */
-.carta img{
-    width: 200px;
-}
-
-/* Estilos footer */
 footer{
-    background-color: gainsboro;
+    background-color: pink;
+    width: 200px;
 }
