@@ -1,0 +1,18 @@
+body {
+    text-align:center;;
+    font-family: Rubik, Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./img/Wow-gif.gif);
+    background-size: 150px;
+
+    color: aliceblue;
+}
+h1 {
+    text-align:center;
+    color: rgb(0, 0, 0);
+    background-color: blanchedalmond;
+}
+
+footer {
+    background-color: black;
+}
+
