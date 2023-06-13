@@ -1,0 +1,21 @@
+body{
+    background-color: brown;
+    color: aliceblue;
+
+    background-image: url("./fondo\ gif.webp");
+    background-size: contain;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+}
+h1{
+    color: aliceblue;
+    
+}
+footer{
+    color: black;
+    background-color: aliceblue;
+}
+main h1{
+    display:flex;
+    justify-content: center;
+}
