@@ -1,0 +1,17 @@
+body{
+    background-color: #FF6BE5;
+    color: rgb(0, 0, 0);
+    background-image: url(../images/61bbd11b6f3dfba4f37c459610ad5c22.gif);
+    font-family: 'Comfortaa', cursive;
+    background-size: 200px;
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+}
+footer {
+    background-color: rgb(56, 236, 182);
+    text-align: center;
+    height: 30px;
+}
