@@ -1,0 +1,17 @@
+body{
+    background-color: chartreuse;
+    background-image: url("./gif\ mundo.gif");
+    background-size: cover;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+h1{
+    color: red;
+
+}
+footer{
+    background-color: aliceblue;
+}
+main h1{
+    display: flex;
+    justify-content: center;
+}
