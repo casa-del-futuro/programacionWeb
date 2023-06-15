@@ -1,0 +1,21 @@
+@import url("./header.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+ul{
+    list-style: none;
+}
