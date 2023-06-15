@@ -1,0 +1,20 @@
+@import url(./header.css);
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+ul{
+    list-style: none;
+}
