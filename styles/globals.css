@@ -1,0 +1,20 @@
+@import url("./header.css");
+
+*{
+    margin: o;
+    padding: o;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+ul{
+    list-style: none;
+}
