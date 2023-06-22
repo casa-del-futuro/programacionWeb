@@ -1,0 +1,25 @@
+
+.carta{
+    background-color: violet;
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+}
+.carta div{
+    margin: 5px;
+    border: 10px;
+}
+.carta img{
+    width: 140px;
+    height: 140px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.carta button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 150px;
+    background-color: antiquewhite;
+    border: 3px black;
+    cursor: pointer;
+}
