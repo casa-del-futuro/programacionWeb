@@ -1,0 +1,22 @@
+body{
+    background-color: aquamarine;
+}
+ div.cuadrado{ 
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    border: 3px dotted lawngreen; 
+    margin: 10px ;
+    
+
+}
+
+div.circulo{
+    background-color: brown;
+    width:300px ;
+    height:300px ;
+    border: 10px solid yellow;
+    border-radius: 300px;
+    margin: 20x ; 
+    border-radius: 50%;
+}
