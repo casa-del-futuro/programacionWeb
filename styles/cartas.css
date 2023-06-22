@@ -1,0 +1,28 @@
+.carta{
+    background-color: lawngreen;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+.carta img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.carta button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: yellow;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.carta button:hover{
+    background-color: yellowgreen;
+  
+}
+    

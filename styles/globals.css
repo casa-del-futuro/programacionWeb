@@ -1,8 +1,8 @@
 @import url("./header.css");
-
+@import url("./cartas.css");
 *{
-    margin: o;
-    padding: o;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
