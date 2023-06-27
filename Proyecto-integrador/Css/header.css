@@ -1,6 +1,10 @@
 header{
-    background-color: aquamarine;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    bottom: 0;
 }
 header img.ImagenLogoHeader{
-    width: 30px;
+    width: 80px;
 }

@@ -1,25 +1,28 @@
 
 .carta{
     background-color: violet;
-    height: 140px;
     width: 140px;
-    display: inline-block;
 }
+
 .carta div{
-    margin: 5px;
-    border: 10px;
+    padding: 10px;
+    border: 2px solid black;
 }
 .carta img{
-    width: 140px;
-    height: 140px;
-    padding: 5px;
+    width: 120px;
+    height: 120px;
     border-radius: 10px;
 }
 .carta button{
     width: 100px;
-    padding: 5px;
+    padding: 2px;
     margin-top: 150px;
     background-color: antiquewhite;
-    border: 3px black;
+    border: 2px black;
     cursor: pointer;
+}
+.carta button:hover{
+    background-color: black;
+    text-decoration: underline;
+
 }
