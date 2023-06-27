@@ -1,0 +1,9 @@
+footer{
+    background-color: antiquewhite;
+    height: 40px;
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    
+}

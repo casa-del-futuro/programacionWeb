@@ -1,11 +1,18 @@
 @import url(./header.css);
 @import url(./cards.css);
+@import url(./footer.css);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
+h1{
+    color: rgb(215, 118, 92);
+    background-color: rgb(211, 211, 226);
+    text-align: center;
+    padding: 20px;
+    }
 body{
     background-color: rgb(114, 39, 39);
     font-family: 'Open Sans', sans-serif;
