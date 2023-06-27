@@ -1,0 +1,60 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: brown;
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+
+}
+
+section.container {
+    background-color: rgb(204, 209, 133);
+    margin: 100px;
+    padding: 50px;
+    height: 170px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+   
+
+} 
+header{
+    background-color: rgb(209, 172, 128);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rectangulo {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    font-size: 50px;
+
+
+}
+
+.uno {
+    background-color: rgb(255, 251, 0);
+}
+
+.dos {
+    background-color: rgb(255, 102, 0);
+}
+
+.tres {
+    background-color: rgba(252, 0, 0, 0.726);
+
+}
