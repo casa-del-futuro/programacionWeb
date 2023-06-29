@@ -1,0 +1,13 @@
+.banner{
+    background-image: url("../imagen/ciclo-de-vida-de-la-vid-vitivinicola_principal-1066x546.jpg");
+    height: 700px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.BannerInfo{
+    background-color: rgba(250, 235, 215, 0.544);
+  
+}

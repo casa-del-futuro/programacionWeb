@@ -1,9 +1,9 @@
 footer{
-    background-color: antiquewhite;
-    height: 40px;
+    background-color: rgb(185, 162, 132);
     color: brown;
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
     
+   
 }

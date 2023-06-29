@@ -1,6 +1,8 @@
 @import url(./header.css);
 @import url(./cards.css);
 @import url(./footer.css);
+@import url(./banner.css);
+;
 *{
     margin: 0;
     padding: 0;
@@ -8,10 +10,15 @@
 
 }
 h1{
-    color: rgb(215, 118, 92);
-    background-color: rgb(211, 211, 226);
+    color: rgb(44, 40, 49);
     text-align: center;
     padding: 20px;
+    }
+    h2{
+        text-align: center;
+        color: rgb(10, 9, 7);
+       
+
     }
 body{
     background-color: rgb(114, 39, 39);
