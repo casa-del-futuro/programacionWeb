@@ -1,0 +1,18 @@
+@import url();
+/* Estilo cartas */
+.carta {
+    background-color: aliceblue;
+    width: 200px;
+    display: inline-block; /* hace que baje la imagen */
+}
+
+/* Estilos imagen */
+.carta img{
+    width: 200px;
+    background-color: rgb(28, 202, 66);
+}
+/* Estilo footer */
+footer{
+    width: 200px;
+    background-color: rgb(207, 207, 50);
+}
