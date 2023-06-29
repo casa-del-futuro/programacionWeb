@@ -1,6 +1,10 @@
 header{
     background-color: rgb(223, 158, 80);
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
 header img.imagelogoheader {
-    width: 150px;
+    width: 100px;
 }
+
