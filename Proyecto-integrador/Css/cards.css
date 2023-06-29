@@ -1,7 +1,10 @@
 
 .carta{
-    background-color: violet;
+    background-color: rgb(243, 188, 243);
     width: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    display: inline-block
 }
 
 .carta div{
@@ -11,15 +14,17 @@
 .carta img{
     width: 120px;
     height: 120px;
-    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 .carta button{
     width: 100px;
-    padding: 2px;
-    margin-top: 150px;
     background-color: antiquewhite;
+    margin-top: 10px;
+    padding: 2px;
     border: 2px black;
     cursor: pointer;
+    border: 50%;
 }
 .carta button:hover{
     background-color: black;

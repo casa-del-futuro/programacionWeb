@@ -1,8 +1,4 @@
 footer{
     background-color: rgb(121, 239, 255);
-    height: 120px;
     color: white;
-    display: flex;
-    justify-content: end;
-    padding: 10px 50px;
 }
