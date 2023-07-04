@@ -26,11 +26,12 @@
     padding: 5px;
     margin-top: 20px;
     background-color: antiquewhite;
-    border: 2px black solid;
+    border: 2px rgb(88, 42, 42) solid;
     cursor: pointer;
     border: 50%;
    
 }
+
 
 .carta button:hover{
     background-color: rgb(39, 28, 28);
