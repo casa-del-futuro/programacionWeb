@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(223, 158, 80);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+header img.imagelogoheader {
+    width: 80px;
+}
+header .navbar{
+    display: flex;
+    gap: 50px;
+    font-weight: 800;
+}
+.navbar a:hover{
+    border-bottom: 2px black double;
+}
+
+
+header i{
+    font-size: 30px;
+}

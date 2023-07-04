@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link a google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--link a fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--link a css-->
+    <link rel="stylesheet" href="./styles/globals.css">
+
+    <title>Programacion Web</title>
+</head>
+
+<body>
+    <header> <!-- Etiqueta semantica de encabezado -->
+        <img src="./image/logo.jpg" alt="Logo hamburguesa" class="imagelogoheader">
+        <nav> <!-- Etiqueta semantica barra de navegación -->
+            <ul class="navbar"> <!-- Etiqueta lógica lista desordenada -->
+                <li> <!-- Etiqueta lógica item de la lista -->
+                    <a target="_blank" href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Quiénes somos</a>
+                </li>
+                <li>
+                    <a href="#">Servicios</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+        <div> <!-- Etiqueta contenedora general -->
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-map-location-dot"></i>
+            
+        </div>
+    </header>
+    <main>
+        <div class="banner"> 
+            <div class="bannerInfo">
+            <h1> Jero </h1>
+            <h2> Proyecto realizado en el taller de programacion </h2>
+            </div>
+        </div>
+        <section class="listadoCartas">
+            <article class="carta">
+                <img src="./image/burger1.jpg" alt="imagen de la primer burguer">
+                <div class="carta1">
+                <h2>Hamburguesa</h2>
+                <p>creador: jero</p>
+                <button>Visita la página</button>
+            </div>
+            </article>
+            <article class="carta">
+                <img src="./image/hamburguesa2.webp" alt="imagen de la segunda burguer">
+                <div class="carta2">
+                <h2>Hamburguesa 2</h2>
+                <p>Creador: Francisco</p>
+                <button>Visita la página</button>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <button>
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <button>
+                            <i class="fa-brands fa-facebook"></i>
+                            Facebook
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://web.whatsapp.com/" target="_blank">
+                        <button>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            WhatsApp
+                        </button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>
