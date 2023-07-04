@@ -1,7 +1,36 @@
-header{
-    background-color: aqua;
-    }
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  header img.imagenLogo  {
-     width: 200px;
-    }
+}
+
+header img.imagenLogo {
+  width: 100px;
+}
+
+header .navbar {
+  display: flex;
+  gap: 50px;
+  font-weight: 100;
+
+}
+
+header img.imagenLogoHeader {
+  width: 50px;
+}
+
+header i {
+  font-size: 30px;
+
+}
+
+.navbar a:hover {
+  color: blue;
+  border-bottom: 2px blue;
+  text-decoration: rgb(35, 140, 182);
+}
+.navbar a{
+  transition: 500px;
+}

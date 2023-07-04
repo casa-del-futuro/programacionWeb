@@ -2,4 +2,10 @@
     background-image: url(../imagenes/fondo.jpg);
     background-position: center;
     height: 150px;
+    
+}
+.bannerinfo{
+    color: rgb(239, 247, 247);
+    text-align: center;
+
 }

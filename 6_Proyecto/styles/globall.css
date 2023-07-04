@@ -9,6 +9,15 @@
 }
 
 body {
-    background-color: rgba(230, 209, 181, 0.534);
+    background-color: rgb(98, 10, 156);
     font-family: 'Lato', sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
 }
