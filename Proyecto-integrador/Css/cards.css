@@ -1,33 +1,37 @@
-
 .carta{
-    background-color: rgb(243, 188, 243);
-    width: 140px;
+    width: 200px;
+    display: inline-block;
     margin: 10px;
     border-radius: 10px;
-    display: inline-block
+    background-color: rosybrown;
+    text-align: center;
 }
 
 .carta div{
     padding: 10px;
-    border: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
 }
+
 .carta img{
-    width: 120px;
-    height: 120px;
+    width: 100%;
+    height: 150px;
     object-fit: cover;
     border-radius: 10px 10px 0px 0px;
 }
-.carta button{
-    width: 100px;
-    background-color: antiquewhite;
-    margin-top: 10px;
-    padding: 2px;
-    border: 2px black;
-    cursor: pointer;
-    border: 50%;
-}
-.carta button:hover{
-    background-color: black;
-    text-decoration: underline;
 
+
+.carta button{
+    width: 100%;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: lightcoral;
+    border: 2px black solid;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carta:hover{
+    background-color: lightgoldenrodyellow;
+    text-decoration: underline;
+    cursor: pointer;
 }

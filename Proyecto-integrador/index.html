@@ -24,13 +24,13 @@
     <header>
         <img src="./img/Logo-patito.png" alt="Logo Github" class="ImagenLogoHeader">
         <p>Mendoza</p>
-        <nav>
-            <ul>
+        <nav class="nav.header">
+            <ul class="navbar">
                 <li>
                     <a target="_blank" href="#">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Quiénes somos</a>
+                    <a href="#">Productos</a>
                 </li>
                 <li>
                     <a href="#">Servicios</a>
@@ -40,29 +40,28 @@
                 </li>
             </ul>
         </nav>
-        <div class="botonera">
-            <button>LogIn</button>
-            <button>SingIn</button>
-        </div>
+        <i class="fa-solid fa-square-minus menu" ></i>
     </header>
     <main>
-        <section class="ListadoCartas"><!--Alt + shif mas flechita duplicar. Alt+flechita mover-->
-                <div class="banner">
-                    <div class="bannerinfo">
-                    <h1>Lucas Yanzon</h1>
-                    <h2>Proyecto desarrollado en taller de programacion</h2>
-                    </div>
-                </div>
+        <div class="banner">
+            <div class="bannerinfo">
+            <h1>Lucas Yanzon</h1>
+            <h2>Proyecto desarrollado en taller de programacion</h2>
+            </div>
+        </div>
+        <section class="ListadoCartas">
             <article class="carta">
-                <div class="carta">
                 <img src="./img/patoloko1.webp" alt="">
+                <div>
+                    <h2>Pato Pagina</h2>
                     <p>Creador: Luquitas</p>
                     <button>Visita la pagina</button>
                 </div>
             </article>
             <article class="carta">
                 <img src="./img/Logo-patito.png" alt="">
-                <div class="carta">
+                <div>
+                    <h2>Pato Pagina</h2>
                     <p>Creador: Luquitas</p>
                     <button>Visita la pagina</button>
                 </div>
@@ -71,7 +70,7 @@
     </main>
     <footer>
         <nav>
-            <ul>
+            <ul class="navbar">
                 <li>
                     <a href="https://www.instagram.com/" target="_blank">
                         <button>
@@ -101,7 +100,6 @@
                     </a>
                 </li>
             </ul>
-            <button>Click me</button>
         </nav>
         <p>Todos los derechos reservados a la casa del futuro</p>
     </footer>
