@@ -1,0 +1,12 @@
+.banner{
+    background-image: url(../img/img-banner.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.bannerinfo{
+    background-color: rgba(250, 235, 215, 0.555);
+}

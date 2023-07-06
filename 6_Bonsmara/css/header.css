@@ -1,26 +1,39 @@
-header{
-background-color: blueviolet;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-image: url("../img/a-brain-riding-a-rocketship.jpg");
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("../img/a-brain-riding-a-rocketship.jpg");
 }
 
-header img.imagenLogoHeader{
+header img.imagenLogoHeader {
     width: 120px;
 }
-header .barra-navegacion{
+
+header .barra-navegacion {
     display: flex;
     gap: 20px;
     font-weight: 800;
 }
 
-.barra-navegacion a{
+.barra-navegacion a {
     transition: all 1s;
 }
 
-.barra-navegacion a:hover{
+.barra-navegacion a:hover {
     color: aqua;
     border-bottom: 2px aqua double;
 }
 
+.menu {
+    display: none;
+    padding-right: 50px;
+}
+
+@media (max-width: 650px) {
+    header .barra-navegacion {
+        display: none;
+    }
+    .menu {
+        display: inline;
+    }
+}

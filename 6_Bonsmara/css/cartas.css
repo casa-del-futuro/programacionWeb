@@ -1,17 +1,28 @@
 
+.ListadoCartas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
 .carta {
     background-color: green;
-    width: 375px;
-    display: inline-block;
-    margin: 12px;
+    width: 300px;
     text-align: center;
     border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
 
 .carta div{
     background-color: bisque;
     padding: 12px;
     border-radius: 50px;
+    
 }
 
 .carta img {
@@ -19,6 +30,7 @@
     object-fit: cover;
     padding: 5px;
     border-radius: 50px;
+    
 }
 
 .carta button{
@@ -33,4 +45,6 @@
 .carta button:hover{
     background-color: yellowgreen;
 }
+
+
 

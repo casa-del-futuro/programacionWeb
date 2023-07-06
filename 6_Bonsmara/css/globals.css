@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./cartas.css);
+@import url(./banner.css);
 
 *{
     margin: 0;
@@ -7,9 +8,14 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-primario: #04D939;
+
+}
+
 body {
     font-family: 'Rubik', sans-serif;
-    background-color: aqua;
+    background-color: var(--color-primario);
 }
 
 a{
@@ -19,4 +25,14 @@ a{
 
 ul{
     list-style: none;
+}
+
+
+@media (max-width: 650px) {
+    body {
+        background-color: brown;
+    }
+    nav{
+        display: none;
+    }
 }
