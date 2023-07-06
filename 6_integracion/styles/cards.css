@@ -1,4 +1,4 @@
-.listadoCartas{
+.listadoCartas {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -12,37 +12,39 @@
 .card {
     width: 300px;
     border-radius: 10px;
+    background-color: var(--color-white);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 300ms ease-in-out;
-  }
-  
-  .card:hover {
+}
+
+.card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
     transform: scale(1.02);
-  }
-  
-  .card img {
+}
+
+.card img {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-  }
-  
-  .card .info {
+}
+
+.card .info {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 10px;
-  }
-  
-  .card .info h2 {
+}
+
+.card .info h2 {
     margin-top: 0;
-  }
-  
-  .card .info p {
+}
+
+.card .info p {
     margin-bottom: 0;
-  }
-  
-  .card .button {
+}
+
+.card .button {
+    text-align: center;
     display: inline-block;
     padding: 10px 20px;
     background-color: var(--color-secundario);
@@ -50,9 +52,8 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 500ms ease-in-out;
-  }
-  
-  .card .button:hover {
+}
+
+.card .button:hover {
     background-color: #45a049;
-  }
-  
+}

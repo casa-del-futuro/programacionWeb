@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./cards.css);
 @import url(./banner.css);
+@import url(./footer.css);
 
 *{
     margin: 0;
@@ -11,6 +12,7 @@
 :root{
     --color-primario: #8C3E11;
     --color-secundario: #172601;
+    --color-white: #FFFFFF;
 }
 
 
@@ -29,5 +31,10 @@ ul{
 }
 
 
-
-
+/* Estilos globales */
+.titleInfo{
+    background-color: rgba(240, 248, 255, 0.572);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0px;
+}
