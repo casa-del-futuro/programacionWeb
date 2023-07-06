@@ -20,12 +20,29 @@ header .navbar{
 }
 
 .navbar a:hover{
-    color: blue;
+    color: var(--color-secundario);
     padding-bottom: 5px;
-    border-bottom: 4px blue solid;
+    border-bottom: 4px var(--color-secundario) solid;
 }
 
 header i{
     font-size: 30px;
     padding: 10px;
+    transition: all 300m s;
 }
+header i:hover{
+    color: var(--color-secundario); 
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 700px){
+    header .navbar{
+        display: none;
+    }
+    .menu{
+        display: inline;
+    }
+}  

@@ -1,39 +1,58 @@
-/* Estilos cartas */
-.carta{
-    width: 200px;
-    display: inline-block;
-    margin: 10px;
+.listadoCartas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+/* cartas chat gpt */
+
+.card {
+    width: 300px;
     border-radius: 10px;
-    background-color: rosybrown;
-    text-align: center;
-}
-
-.carta div{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 10px;
-    border-radius: 0px 0px 10px 10px;
-}
-
-/* Estilos imagen */
-.carta img{
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 10px 10px 0px 0px;
-}
-
-
-.carta button{
-    width: 100%;
-    padding: 5px;
-    margin-top: 20px;
-    background-color: brown;
-    border: 2px black solid;
-    cursor: pointer;
+  }
+  
+  .card .info h2 {
+    margin-top: 0;
+  }
+  
+  .card .info p {
+    margin-bottom: 0;
+  }
+  
+  .card .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-}
-
-.carta:hover{
-    background-color: red;
-    text-decoration: underline;
-    cursor: pointer;
-}
+    transition: background-color 500ms ease-in-out;
+  }
+  
+  .card .button:hover {
+    background-color: #45a049;
+  }
+  
