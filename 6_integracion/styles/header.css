@@ -1,10 +1,39 @@
-header{
+header {
     background-color: rgb(223, 158, 80);
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    align-items: center;
+    padding: 20px;
+    
 }
 header img.imagelogoheader {
-    width: 100px;
+    width: 80px;
+}
+header .navbar{
+    display: flex;
+    gap: 50px;
+    font-weight: 800;
+}
+.navbar a:hover{
+    border-bottom: 2px black double;
 }
 
+
+header i{
+    font-size: 30px;
+}
+header i:hover{
+    transform: scale(1.2);
+}
+.menu{
+    display: none;
+}
+@media (max-width: 700px) {
+    
+    header .navbar{
+        display: none;
+    }
+    .menu{
+        display: inline;
+    }
+}

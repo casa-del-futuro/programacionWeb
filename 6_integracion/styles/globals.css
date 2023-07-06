@@ -6,8 +6,15 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+:root{
+    --color-primario: #8C3E11;
+    --color-secundary: #172601;
+}
+
 body{
-    background-color: antiquewhite;
+
+    background-color: var(--color-primario);
     font-family: 'Montserrat', sans-serif;;
 }
 a{

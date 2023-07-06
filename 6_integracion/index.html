@@ -21,10 +21,9 @@
 
 <body>
     <header> <!-- Etiqueta semantica de encabezado -->
-        <img src="./image/logo.webp" alt="Logo Github" class="imagelogoheader">
-        <p>Mendoza</p>
+        <img src="./image/logo.jpg" alt="Logo hamburguesa" class="imagelogoheader">
         <nav> <!-- Etiqueta semantica barra de navegación -->
-            <ul> <!-- Etiqueta lógica lista desordenada -->
+            <ul class="navbar"> <!-- Etiqueta lógica lista desordenada -->
                 <li> <!-- Etiqueta lógica item de la lista -->
                     <a target="_blank" href="#">Inicio</a>
                 </li>
@@ -39,10 +38,11 @@
                 </li>
             </ul>
         </nav>
-        <div> <!-- Etiqueta contenedora general -->
-            <button>LogIn</button>
-            <button>SingIn</button>
-        </div>
+        <nav> <!-- Etiqueta contenedora general -->
+            <a target="_blank" href="#"> <i class="fa-brands fa-instagram"></i> </a>
+            <a target="_blank" href="#"> <i class="fa-solid fa-map-location-dot"></i> </a>       
+            <i class="fa-solid fa-bars menu"> </i>
+        </nav>
     </header>
     <main>
         <div class="banner"> 
@@ -53,18 +53,20 @@
         </div>
         <section class="listadoCartas">
             <article class="carta">
-                <img src="./image/burger1.jpg" alt="imagen de la mejor pagina de vacas del mundo">
-                <div>
+                <img src="./image/burger1.jpg" alt="imagen de la primer burguer">
+                <div class="carta1">
                 <h2>Hamburguesa</h2>
                 <p>creador: jero</p>
                 <button>Visita la página</button>
             </div>
             </article>
             <article class="carta">
-                <img src="./image/pagina.avif" alt="imagen de la mejor pagina de futbol del mundo">
+                <img src="./image/hamburguesa2.webp" alt="imagen de la segunda burguer">
+                <div class="carta2">
                 <h2>Hamburguesa 2</h2>
-                <p>Creador: Francisco</p>
+                <p>Creador: Jero</p>
                 <button>Visita la página</button>
+                </div>
             </article>
         </section>
     </main>
