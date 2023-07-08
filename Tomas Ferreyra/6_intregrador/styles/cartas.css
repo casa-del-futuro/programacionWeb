@@ -1,0 +1,206 @@
+.listadoCartas {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.cartas1 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas1 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas1 .b1 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas2 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas2 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas2 .b2 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas3 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas3 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas3 .b3 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas4 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas4 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas4 .b4 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas5 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas5 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas5 .b5 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas6 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas6 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas6 .b6 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas7 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas7 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas7 .b7 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas8 {
+  background-color: gray;
+  width: 350px;
+  height: 370px;
+  margin: 20px;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 300ms ease-in-out;
+}
+.cartas8 img {
+  margin: 10px 0px 0px 0px;
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px 10px 10px 0px;
+}
+.cartas8 .b8 {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+}
+.cartas1:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas2:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas3:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas4:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.0);
+}
+.cartas5:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas6:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas7:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}
+.cartas8:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  transform: scale(1.02);
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-image: url("./tomy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .main{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Prism', cursive;
+}
+
+ul{
+    display: inline-flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+
+footer{
+    display: flex;
+    align-items: flex-end;
+}
+

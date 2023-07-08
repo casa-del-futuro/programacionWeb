@@ -1,0 +1,11 @@
+.baner{
+    background-image: url("../imagenes/Recurso\ 3.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nombre{
+    background-color: rgba(238, 130, 238, 0.338);
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+}

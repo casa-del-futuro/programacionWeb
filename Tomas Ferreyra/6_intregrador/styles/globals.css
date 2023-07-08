@@ -1,0 +1,29 @@
+@import url("./main.css");
+@import url("./cartas.css");
+@import url("./header.css");
+@import url("./body.css");
+@import url("./footer.css");
+@import url("./baner.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    background-color: var();
+    --color-primario:#B65AC4;
+    --color-secundario:#331937;
+    --color-primario:#6F3777;
+    --color-primario:#92489D;
+    --color-primario:#AA54B7;
+
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: unset;
+    text-decoration: none
+}
+

@@ -1,0 +1,7 @@
+.banner{
+    background-image: url("../skate.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 370px;
+}

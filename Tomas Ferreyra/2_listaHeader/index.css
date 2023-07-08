@@ -1,0 +1,10 @@
+header{
+    background-color: black;
+    height: 50%;
+    width: 50%;
+    justify-content: space-between;
+}
+nav.navegacion li {
+    display: inline-block;
+    flex: auto;
+}
