@@ -8,20 +8,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 h1 {
     color: rgb(44, 40, 49);
     text-align: center;
     padding: 20px;
-}
-
-h2 {
+}h2 {
     text-align: center;
     color: rgb(10, 9, 7);
-
-
+}
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,12 +26,18 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-
 a {
     text-decoration: none;
     color: unset;
 }
-
 ul {
     list-style: none;
+}
+.arrow-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 50px;
 }
