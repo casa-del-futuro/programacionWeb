@@ -3,6 +3,12 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: var(--color-primario);
+    z-index: 999;
 }
 
 header img.imagenLogoHeader{

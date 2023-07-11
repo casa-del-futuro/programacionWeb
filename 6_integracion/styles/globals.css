@@ -15,6 +15,10 @@
     --color-white: #FFFFFF;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 body{
     background-color: var(--color-primario);
@@ -38,3 +42,20 @@ ul{
     padding: 20px;
     margin: 20px 0px;
 }
+
+.arrow-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: var(--color-white);
+    padding: 5px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
