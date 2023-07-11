@@ -5,6 +5,12 @@ header {
     align-items: center;
     padding: 20px;
     
+    position: sticky;
+    width: 100%;
+    background-color: var(--color-primario);
+    top: 0px;
+    z-index: 1;
+
 }
 header img.imagelogoheader {
     width: 80px;

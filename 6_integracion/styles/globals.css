@@ -8,10 +8,13 @@
 }
 
 :root{
-    --color-primario: #8C3E11;
+    --color-primario: rgb(223, 158, 80);
     --color-secundary: #172601;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 body{
 
     background-color: var(--color-primario);
@@ -23,4 +26,13 @@ a{
 }
 ul{
     list-style: none;
+}
+
+.arrow-top{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #A64F03;
+    padding: 10px;
+    border-radius: 50%;
 }

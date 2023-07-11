@@ -4,19 +4,25 @@
     gap: 20px;
     justify-content: center;
     margin: 20px;
-}
-/* Estilos cartas */
-.carta{
-    width: 200px;
-    background-color: rgb(0, 0, 0);
-    width: 400px;
-    border-radius: 10px;
 
 }
-.carta div{
-    padding: 10px;
-    background-color: peru;
+
+/* Estilos cartas */
+.carta{   
+    background-color: #e48431;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 16px rgba(0,0,0,0.5);
+}
+
+.carta > div{
+    padding: 20px;
+    background-color: #e48431;
     border-radius: 0px 0px 10px 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
 }
 
 /* Estilos imagen */
@@ -28,16 +34,13 @@
 }
 
 .carta button{
-    width: 100%;
-    padding: 5px;
-    margin-top: 20px;
-    background-color: burlywood;
-    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #D9AF62;
+    color: black;
+    border: none;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 
-.carta button:hover{
-    background-color: rgb(202, 167, 122);
 
-}
+
