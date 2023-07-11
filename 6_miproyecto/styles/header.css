@@ -1,5 +1,36 @@
 header{
-background-color: blue;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding: 20px;
 }
 
-header img
+header img{ 
+    width: 100px ; /* Modifica el ancho de un elemento */
+    /*height: 100px ;  Modifica el alto de un elemento */
+    object-fit: cover; /* Controla la deformacion de las imagenes */
+}
+
+header ul{
+    display:flex;
+    gap: 100px;
+   
+}
+
+header button{
+    display: none;
+}
+
+@media (max-width: 680px){
+    body{
+     background-color: red;
+    }
+    header ul{
+        display:none;
+    }
+    header button{
+        display: block;
+    }
+
+}

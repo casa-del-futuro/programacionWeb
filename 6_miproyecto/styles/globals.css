@@ -1,11 +1,25 @@
-@import url(./header.css);
+@import url("./header.css");
+@import url("./cards.css");
+@import url("./banner.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+*{
  margin:  0;
  padding: 0;
- box-sizing:border-box ;
+ box-sizing: border-box ;
+    
+}
+:root{
+    --color-primario: #02735E;
+    --color-secundario: #f25005;   
+}
+
+html{
+    scroll-behavior:smooth;
     
 }
 body{
-    background-color: brown;
+    background-color: var(--color-primario);
+    font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -16,3 +30,13 @@ a{
 ul{
     list-style: none;
 }
+
+.flecha{
+    position:fixed;
+    right: 50px;
+    bottom:50px;
+    background-color: var(--color-secundario);
+    border-radius:50%;
+    padding:10px;
+}
+

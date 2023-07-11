@@ -5,19 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles/globals.css">
     <title>Document</title>
 </head>
 <body>
     <header> <!-- Etiqueta semantica de encabezado -->
         <img 
-        src="./imagenes/perro.jpg" 
-        alt="./imagenes/perro.jpg"
-        >
-        <p>Mendoza</p>
+        src="./imagenes/logomessi.webp" 
+        alt="logo messi"
+        > <!-- Imagen del perro del header -->
         <nav> <!-- Etiqueta semantica barra de navegación -->
             <ul> <!-- Etiqueta lógica lista desordenada -->
                 <li> <!-- Etiqueta lógica item de la lista -->
@@ -34,13 +33,53 @@
                 </li>
             </ul>
         </nav>
-        <div>  <!-- Etiqueta contenedora general -->
-            <button>LogIn</button>
-            <button>SingIn</button>
-        </div>
+        <button>  <!-- Etiqueta contenedora general -->
+            <i class="fa-solid fa-bars"></i>
+        </button>
     </header>
     <main>
-        <h1>vimos colores y cambiar</h1>        
+
+        <div class="banner">
+            <h1></h1>
+        </div>
+
+        <section class="listadoCartas">
+            <article class="carta">
+                <img src="./imagenes/logomessi.webp" alt="imagen de la mejor pagina de vacas del mundo">
+                <div>
+                    <h2>logomessi</h2>
+                    <p>Creador: mauro</p>
+                    <button>Visita la página</button>
+                </div>
+            </article>
+            <article class="carta">
+                <img src="./images/pagina.avif" alt="imagen de la mejor pagina de vacas del mundo">
+                <div>
+                    <h2>Página de vaca</h2>
+                    <p>Creador: Gregorio</p>
+                    <button>Visita la página</button>
+                </div>
+            </article>
+            <article class="carta">
+                <img src="./images/pagina.avif" alt="imagen de la mejor pagina de vacas del mundo">
+                <div>
+                    <h2>Página de vaca</h2>
+                    <p>Creador: Gregorio</p>
+                    <button>Visita la página</button>
+                </div>
+            </article>
+            <article class="carta">
+                <img src="./images/pagina.avif" alt="imagen de la mejor pagina de vacas del mundo">
+                <div>
+                    <h2>Página de vaca</h2>
+                    <p>Creador:mauro</p>
+                    <button>Visita la página</button>
+                </div>
+            </article>
+
+        </section>  
+        
+        <a href="#top"><i class="fa-solid fa-arrow-up flecha"></i></a>
     </main>
     <footer>
         <nav>

@@ -1,0 +1,18 @@
+.banner{
+    background-image:url("../imagenes/bannermessi.jpg") ,url("../imagenes/balenmessi.png") ;
+    height:400px;
+    background-repeat:no-repeat;
+    background-position:right;
+    background-size:contain;
+    background-color: var(--color-secundario);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerinfo{
+ background-color: darkgoldenrod;   
+ text-align:center;
+ 
+}
