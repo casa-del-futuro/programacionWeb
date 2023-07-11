@@ -1,11 +1,17 @@
 .banner{
-    background-image: url(../imagenes/fondo.jpg);
+    background-image: url(../imagenes/imagen\ 2.webp);
     background-position: center;
-    height: 150px;
+    height: 700px;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 100px;
     
 }
 .bannerinfo{
-    color: rgb(239, 247, 247);
+   background-color: rgba(110, 110, 110, 0.508);
     text-align: center;
-
+    padding: 20px;
+   
 }

@@ -7,9 +7,12 @@
     padding: 0;
     box-sizing:border-box; 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body {
-    background-color: rgb(98, 10, 156);
+    background-color: rgba(107, 118, 144, 0.933);
     font-family: 'Lato', sans-serif;
     
 }
@@ -20,4 +23,13 @@ ul{
 a{
     color: unset;
     text-decoration: none;
+}
+.arrow-top{
+     position: fixed;
+     right: 50px; 
+     bottom: 50px;
+     background-color: brown;
+     padding: 10px;
+     border-radius: 50px;
+
 }

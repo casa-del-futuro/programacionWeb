@@ -1,20 +1,21 @@
-header {
-  background-color: aqua;
+header div.header {
+  background-color: rgb(255, 255, 255);
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  
+    
 }
 
 header img.imagenLogo {
-  width: 100px;
+  width: 50px;
 }
 
 header .navbar {
   display: flex;
   gap: 50px;
   font-weight: 100;
-
+  
 }
 
 header img.imagenLogoHeader {

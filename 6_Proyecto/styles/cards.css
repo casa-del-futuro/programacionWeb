@@ -6,9 +6,10 @@
 
 /* Estilo cartas */
 .carta {
-    background-color: rgb(36, 130, 212);
+    background-color: rgb(104, 167, 222);
     width: 300px;
-    border-radius: 10px 10px 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 16px rgba(0,0,0,0.5);
 }
 
 .carta .cartaInfo{
@@ -29,7 +30,7 @@
     width: 100%;
     padding: 5px;
     margin-top: 20px;
-    background-color: rgba(199, 8, 224, 0.705);
+    background-color: rgba(182, 29, 206, 0.449);
     cursor: pointer;
    
 }
