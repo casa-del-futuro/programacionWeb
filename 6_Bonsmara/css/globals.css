@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./cartas.css);
 @import url(./banner.css);
+@import url(./footer.css);
 
 *{
     margin: 0;
@@ -9,8 +10,12 @@
 }
 
 :root{
-    --color-primario: #04D939;
+    --color-primario: #d9cb04c2;
 
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 body {
@@ -35,4 +40,18 @@ ul{
     nav{
         display: none;
     }
+}
+
+.flecha-arriba{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: var(--color-primario);
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }

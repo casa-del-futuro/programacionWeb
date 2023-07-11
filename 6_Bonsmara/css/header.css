@@ -2,11 +2,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url("../img/a-brain-riding-a-rocketship.jpg");
+    
+
+    
+    position: fixed;
+    width: 100%;
+    background-color: var(--color-primario);
+    z-index: 999;
 }
 
 header img.imagenLogoHeader {
-    width: 120px;
+    width: 100px;
+    padding: 15px;
 }
 
 header .barra-navegacion {
