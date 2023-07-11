@@ -1,10 +1,12 @@
 header{
-    background-color: lightseagreen;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
     bottom: 0;
+    position: sticky;
+    width: 100px;
+    top: 6px;
 }
 .navbar{
     display: flex;
@@ -17,14 +19,28 @@ header{
 header img.ImagenLogoHeader{
     width: 80px;
 }
-@media(max-width: 500px){
-    body{
-        background-color: lightgreen;
-    }
-    nav{
+.navbar a:hover{
+    color: var(--color-secundario);
+    padding-bottom: 2px;
+    position: relative;
+    bottom: 2px;
+    border-bottom: 2px var(--color-secundario) solid;
+}
+
+header i{
+    font-size: 30px;
+    padding: 10px;
+    transition: all 300m s;
+}
+header i:hover{
+    color: var(--color-secundario); 
+}
+
+@media (max-width: 700px){
+    header .navbar{
         display: none;
     }
     .menu{
-        display: none;
+        display: inline;
     }
-}
+}  
