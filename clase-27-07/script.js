@@ -1,0 +1,3 @@
+function boom(){
+        document.querySelector("")
+    }

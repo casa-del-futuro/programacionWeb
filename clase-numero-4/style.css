@@ -1,11 +1,15 @@
 body{
 background-color: rgb(56, 231, 173);
+box-sizing: border-box;
 }
 
 .carta{
     background-color: violet;
     width: 200px;
     display: inline-block;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 20px;
 }
 .carta img{
     width: 200px;
