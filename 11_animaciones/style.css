@@ -1,0 +1,23 @@
+body{
+    background-color: brown;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(89, 71, 255);
+    transition-duration: 1s;
+}
+
+.cuadrado:hover{
+    transform: scale(2);
+}
+
+@keyframes fantasma {
+    0% {opacity: 0%;}
+    25% {transform: translateY(-20px); opacity: 100%;}
+    100% {opacity: 0%;}
+}
+.fantasma{
+    animation: fantasma 3s infinite;
+}
