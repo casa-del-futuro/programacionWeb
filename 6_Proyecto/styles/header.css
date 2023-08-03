@@ -7,6 +7,12 @@ header div.header {
     
 }
 
+.img-header{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 header img.imagenLogo {
   width: 50px;
 }
@@ -34,4 +40,10 @@ header i {
 }
 .navbar a{
   transition: 500px;
+}
+
+.list-icons{
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
 }

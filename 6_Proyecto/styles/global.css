@@ -1,0 +1,41 @@
+@import url(./header.css);
+@import url(./cards.css);
+@import url(./banner.css);
+@import url(./footer.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(107, 118, 144, 0.933);
+    font-family: 'Lato', sans-serif;
+    
+}
+ul{
+    list-style: none;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+.arrow-top{
+    position: fixed;
+    right: 50px; 
+    bottom: 50px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
