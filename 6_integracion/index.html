@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--link a css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!--link a css-->
     <link rel="stylesheet" href="./styles/globals.css">
 
     <title>Programacion Web</title>
@@ -25,7 +26,7 @@
         <nav> <!-- Etiqueta semantica barra de navegación -->
             <ul class="navbar"> <!-- Etiqueta lógica lista desordenada -->
                 <li> <!-- Etiqueta lógica item de la lista -->
-                    <a target="_blank" href="#">Inicio</a>
+                    <a href="#">Inicio</a>
                 </li>
                 <li>
                     <a href="#">Quiénes somos</a>
@@ -54,7 +55,7 @@
             </div>
         </div>
         <section class="listadoCartas">
-            <article class="carta">
+            <article class="carta animate__backInUp animate__animated">
                 <img src="./image/burger1.jpg" alt="imagen de la primera hamburguesa">
                 <div>
                     <div>
@@ -64,7 +65,7 @@
                     <button>Visita la página</button>
                 </div>
             </article>
-            <article class="carta">
+            <article class="carta animate__backInUp animate__animated">
                 <img src="./image/burger2.png" alt="imagen de la segunda hamburguesa">
                 <div>
                     <div>
@@ -75,7 +76,7 @@
                     <button>Visita la página</button>
                 </div>
             </article>
-            <article class="carta">
+            <article class="carta animate__backInUp animate__animated">
                 <img src="./image/burger3.jpg" alt="imagen de la tercera hamburguesa">
                 <div>
                     <div>
@@ -91,35 +92,32 @@
         <a href="#top"><i class="fa-solid fa-arrow-up arrow-top"></i></a>
     </main>
     <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                        <button>
-                            <i class="fa-brands fa-instagram"></i>
-                            Instagram
-                        </button>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <button>
-                            <i class="fa-brands fa-facebook"></i>
-                            Facebook
-                        </button>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://web.whatsapp.com/" target="_blank">
-                        <button>
-                            <i class="fa-brands fa-whatsapp"></i>
-                            WhatsApp
-                        </button>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <p>Todos los derechos reservados</p>
+        <section class="listadoCartas2">
+            <article class="carta2">
+                <img src="./image/metodo-de-pago.png" alt="">
+                <div>
+                    <div>
+                    <h2>Metodo De Pago</h2>
+                    <p>...</p>
+                </div>
+            </article>
+            <article class="carta2 ">
+                <img src="./image/entrega-de-comida.png" alt="">
+                <div>
+                    <div>
+                    <h2>Delivery</h2>
+                    <p>...</p>
+                </div>
+            </article>
+            <article class="carta2">
+                <img src="./image/mapa.png" alt="">
+                <div>
+                    <div>
+                        <h2>Locales</h2>
+                        <p>...</p>
+                </div>
+            </article>
+        </section>
     </footer>
 </body>
 

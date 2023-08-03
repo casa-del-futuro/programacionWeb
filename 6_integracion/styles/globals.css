@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./cards.css);
 @import url(./banner.css);
+@import url(./footer.css);
 *{
     margin: 0;
     padding: 0%;
@@ -29,10 +30,11 @@ ul{
 }
 
 .arrow-top{
+   
     position: fixed;
     right: 50px;
     bottom: 50px;
-    background-color: #A64F03;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 50%;
 }
