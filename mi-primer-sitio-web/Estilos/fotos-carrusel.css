@@ -1,0 +1,24 @@
+/* Estilos Carrusel */
+
+/* Es en este archivo en el que debemos modificar las url de las imagenes, 
+cada una de las url representa la ruta hacia cada una de las imagenes, unicamente hay
+que modificar la ruta con la nueva ruta de nuestro personaje.
+
+    background: url("") center no-repeat;
+
+la nueva ruta debe estar dentro de las comillas
+
+*/
+
+
+.carrusel-img {
+    background: url("../imagenes/img1.png") center no-repeat;
+}
+
+.carrusel-img1 {
+    background: url("../imagenes/img2.jpg") center no-repeat;
+}
+
+.carrusel-img2 {
+    background: url("../imagenes/img3.png") center no-repeat;
+}
