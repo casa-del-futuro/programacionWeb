@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- En la etiqueta head se encuentran las configuraciones del sitio -->
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Header</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Flexbox</title>
 </head>
-
-<!-- En la etiqueta body se encuentran los bloques de contenido del sitio -->
 <body>
+    <h1>Flexbox</h1>
+    
     <header> <!-- Etiqueta semantica de encabezado -->
         <img 
-        src="./images/githubLogo.png" 
+        src="./images/logoIcon.png" 
         alt="Logo Github"
-        width="100px"
+        class="imagenLogoHeader"
         >
-        <p>Mendoza</p>
         <nav> <!-- Etiqueta semantica barra de navegación -->
             <ul> <!-- Etiqueta lógica lista desordenada -->
                 <li> <!-- Etiqueta lógica item de la lista -->
@@ -39,6 +36,12 @@
             <button>SingIn</button>
         </div>
     </header>
-</body>
+    <section class="container">
+        <article class="rectangulo uno">1</article>
+        <article class="rectangulo dos">2</article>
+        <article class="rectangulo tres">3</article>
+    </section>
 
+
+</body>
 </html>

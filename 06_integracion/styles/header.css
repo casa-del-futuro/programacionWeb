@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    background-color: var(--color-primario);
+    z-index: 999;
+}
+
+header img.imagenLogoHeader{
+    width: 50px;
+}
+
+header .navbar{
+    display: flex;
+    gap: 50px;
+    font-weight: 800;
+}
+
+.navbar a{
+    transition: all 100ms; 
+}
+
+.navbar a:hover{
+    color: var(--color-secundario);
+    padding-bottom: 2px;
+    position: relative;
+    bottom: 2px;
+    border-bottom: 2px var(--color-secundario) solid;
+}
+
+header i{
+    font-size: 30px;
+    padding: 10px;
+    transition: all 300m s;
+}
+header i:hover{
+    color: var(--color-secundario); 
+}
+
+.menu{
+    display: none;
+}
+
+@media (max-width: 700px){
+    header .navbar{
+        display: none;
+    }
+    .menu{
+        display: inline;
+    }
+}  
