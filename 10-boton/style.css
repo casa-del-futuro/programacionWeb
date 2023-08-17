@@ -1,0 +1,39 @@
+body {
+    background-color: #73BCD5;
+}
+
+button {
+    color: rgb(96, 218, 224);
+    background-color: rgb(5, 41, 43);
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+
+.botonera {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+h1 {
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+div {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+img{
+    width: 200px;
+}
