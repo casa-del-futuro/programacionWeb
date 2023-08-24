@@ -12,4 +12,5 @@ function comentar() {
     /* capturar valor del input */
     /* Agregar un comentario al div con clase de comentarios  */
     comentarios.innerHTML += `<p>${input.value}</p>`
+    
 }
