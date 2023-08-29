@@ -1,0 +1,23 @@
+body{
+    background-color: darkkhaki;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategray;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.botonera{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
