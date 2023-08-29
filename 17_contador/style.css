@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkmagenta;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 24px;
+
+    box-shadow: inset 2px 2px 2px gray, inset -2px -2px 2px gray;
+}
+
+h1{
+    animation: contador 2s infinite;
+}
+
+.botonera{
+    display: flex;
+    gap: 16px;
+}
+
+button{
+    font-family: 'Cabin Sketch', cursive;
+    background-color: unset;
+    border: unset;
+    font-size: 20px;
+}
+
+button:active{
+    color: brown;
+}
+
+@keyframes contador{
+    0%, 100%{
+        color: red;
+    }
+    50%{
+        visibility: 100%;
+        color: blue;
+    }
+
+}
+
+
+
