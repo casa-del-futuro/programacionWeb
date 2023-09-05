@@ -1,0 +1,22 @@
+/* importar la tipografia
+
+/*estilos globales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*variables de color */
+:root{
+    --color-azul1: #012E40;
+    --color-azul2: #024959;
+    --color-azul3: #026773;
+    --color-celeste: #3CA6A6;
+    --color-cremita: #F2E3D5;
+}
+
+body{
+    background-color: var(--color-celeste);
+}
