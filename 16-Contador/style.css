@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Gasoek+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    font-size: 30px;
+
+    font-family: 'Covered By Your Grace', cursive;
+    
+
+}
+
+.card {
+    color: #d13411;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 24px;
+
+    box-shadow: inset 2px 2px 2px gray, inset -2px -2px 2px gray;
+}
+
+h1{
+    animation: contador 2s infinite;
+}
+
+
+.botonera {
+    display: flex;
+    gap: 16px;
+}
+
+button {
+
+    border: unset;
+    font-size: 30px;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+button:active{
+    color: brown;
+}
+
+@keyframes contador{
+    0%, 100%{
+        color: red;
+    }
+    50%{
+        visibility: 100%;
+        color: blue;
+    }
+
+}
