@@ -1,0 +1,21 @@
+/* Importar la tipografía */
+
+/* Estilos globales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables de color */
+:root{
+    --color-green: #26C4A5;
+    --color-green1: #54D99F;
+    --color-green2: #ACE08C;
+    --color-yellow: #E8E284;
+    --color-orange: #F2B652;
+}
+
+body{
+    background-color: var(--color-green1);
+}
