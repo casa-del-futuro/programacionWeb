@@ -1,0 +1,23 @@
+#aboutme{
+    background-color: var(--color-orange);
+    padding: 16px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.aboutme-info{
+    width: 40%;
+}
+
+.aboutme-info h1{
+    font-size: 40px;
+    color: #FFF;
+}
+
+
+#aboutme img{
+    width: 20%;
+}

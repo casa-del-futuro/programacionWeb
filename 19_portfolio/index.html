@@ -6,29 +6,39 @@
 
     <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="stylesheet" href="./styles.css">
+    
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="./styles/globals.css">
     <title>Lucas Zarandón</title>
 </head>
 <body>
     <header>
         <h2> < LUCAS ZARANDON / > </h2>
         <nav>
-            <ul>
+            <ul class="navegation">
                 <li><a href="#aboutme">about me</a></li>
                 <li><a href="#proyects">proyects</a></li>
                 <li><a href="#skill">skills</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
-        <button>theme</button>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
     </header>
+
     <section id="aboutme">
-        //ABOUT ME//
-        <h2>¡Hola! Soy</h2>
-        <h1>LUCAS ZARANDÓN</h1>
-        <p>Programo con React y amo TypeScript y CSS, soy tallerista en dos escuelitas copadas en donde enseño a programar en nivel inicial y superior!</p>
+        <img src="./images/developer.avif" alt="Lucas Zarandon developer">
+        <div class="aboutme-info">
+            <h2>¡Hi! I am</h2>
+            <h1>LUCAS ZARANDÓN</h1>
+            <h2>FrontEnd React developer</h2>
+            <p>
+                Program with React and I love TypeScript and CSS, I am a workshop facilitator in two cool little schools where, I teach programming at the initial and higher levels!</p>
+        </div>
     </section>
+
     <section id="proyects">
         //PROYECTS//
         <article>

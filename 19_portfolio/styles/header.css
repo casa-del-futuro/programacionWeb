@@ -1,0 +1,85 @@
+header {
+    background-color: var(--color-primary1);
+    box-shadow: var(--box-shadow);
+    padding: 16px;
+    position: sticky;
+    top: 0;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navegation {
+    display: flex;
+    gap: 24px;
+}
+
+.navegation a {
+    font-size: 20px;
+}
+
+.navegation a:hover{
+    font-weight: 700;
+}
+
+
+/* Estilos del cambio de tema */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-primary);
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px var(--color-secondary);
+    background: var(--color-primary);
+    transition: .5s;
+}
+
+input:checked+.slider {
+    background-color: var(--color-primary);
+}
+
+input:checked+.slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px var(--color-secondary);
+}
+
+
+/* FLEXBOX */
+/* display: flex  ----> activamos flexbox */
+/* flex-direction: row/column ----> definir el eje principal */
+/* justify-content: start/center/end/space-between/space-evenly/space-arround --> Ajustar el contenido de acuerdo al eje principal  */
+/* aling-items: start/center/end  ---> Ajustar el contenido de acuerdo al eje secundario*/
+/* gap: px/%/em/rem/vh/vw ---> Separar un elemento de otro */
