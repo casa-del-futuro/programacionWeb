@@ -3,6 +3,8 @@
 /* Importar estilos */
 @import url(./header.css);
 @import url(./aboutme.css);
+@import url(./card.css);
+@import url(./proyects.css);
 
 /* Estilos globales */
 *{
@@ -17,8 +19,9 @@
     --color-primary1: #54D99F;
     --color-primary2: #ACE08C;
     --color-secondary: #E8E284;
+    --font-color: #122223;
     --color-orange: #F2B652;
-    --box-shadow: 2px 2px 20px rgb(37, 37, 37);
+    --box-shadow: 2px 2px 10px rgb(81, 81, 81);
 }
 
 html{
@@ -28,6 +31,7 @@ html{
 body{
     background-color: var(--color-primary1);
     font-family: 'IBM Plex Mono', monospace;
+    color: var(--font-color);
 }
 
 ul{
@@ -37,4 +41,24 @@ ul{
 a{
     text-decoration: none;
     color: unset;
+}
+
+.title{
+    text-align: center;
+    padding: 16px;
+    margin: 24px 0;
+    font-size: 40px;
+    background-color: var(--color-primary) ;
+    box-shadow: var(--box-shadow);
+}
+
+.button{
+    padding: 8px 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: linear-gradient(-45deg, var(--color-orange) 0%, var(--color-primary) 50%,var(--color-secondary) 100% );
+}
+
+.button{
+    box-shadow: var(--box-shadow);
 }
