@@ -1,0 +1,28 @@
+#sobremi{
+    background-color: var(--color-primary);
+    padding: 16px;
+    color: var(--color-secondary2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobremi-info{
+    width: 40%;
+}
+
+.sobremi-info h1{
+    font-size: 40px;
+    color: var(--color-secondary2);
+}
+.tittle{
+    text-align: center;
+    padding: 16px;
+    margin: 24px 0 ;
+    font-size: 40px;
+    background-color: var(--color-primary2);
+}
+#sobremi img{
+    width: 20%;
+}
