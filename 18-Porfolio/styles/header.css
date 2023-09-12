@@ -1,0 +1,92 @@
+header{
+    background-color: var(--color-verdeos);
+    box-shadow: var(--box-shadow);
+    padding: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navegation{
+   
+    display: flex;
+    gap: 16px;
+    
+}
+
+.navegation a {
+    font-size: 24px;
+
+}
+.navegation a:hover{
+    font-weight: 600;
+}
+
+
+
+
+
+/*estilos del boton cambio del temper*/
+/* The switch - the box around the slider */
+.switch {
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+    width: 3.5em;
+    height: 2em;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-azulos);
+    transition: .5s;
+    border-radius: 30px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 1.4em;
+    width: 1.4em;
+    border-radius: 50%;
+    left: 10%;
+    bottom: 15%;
+    box-shadow: inset 8px -4px 0px 0px #ffffff; /* #fff000*/
+    background: var(--background);
+    transition: .5s;
+  }
+  
+  input:checked + .slider {
+    background-color: var(--color-azulcl);
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(100%);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+  }
+
+
+
+
+
+/* flexbox*/
+/*display: flex  -----> activavos flexbox*/
+/* flex-direction: row/colum   ----> difinor el eje principal*/
+/* justify-content: star/ center/ end/ space-between/ space-evenly/ spce-arround ---> ajustar el contenido al eje principal*/
+/*aling-items: start/center/end --> ajustar el contenido de acuerdo al eje secundario*/
+/*gap: px/%/em/rem/vh/vw -->separ un elemento de otro*/

@@ -1,0 +1,20 @@
+#aboutme{
+    padding: 16px;
+    gap: 16px;    
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutme-info{
+    width: 30%;
+}
+.aboutme-info h1{
+    font-size: 40px;
+}
+
+#aboutme img{
+    width: 30%;
+}

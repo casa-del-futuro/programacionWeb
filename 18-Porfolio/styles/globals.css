@@ -1,0 +1,56 @@
+/*importar tipografia*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+
+/* importar estilos*/
+@import url(./header.css);
+@import url(./sobremi.css);
+
+
+/*esstilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*variable color*/
+:root{
+   /* --color-naracafe: #DDA960;
+    --color-verdeaqua:#7CA692 ;
+    --color-crema: #F7E6C8;
+    --color-rosacl:#EACEC3;
+    --color-blanquito: #F2F2F2;*/
+
+    
+    --color-verdeos: #7FAD8D ;
+    --color-verdecl: #DCFAE5;
+    --color-rosacl: #FADCCF;
+    --color-azulos:#7F9BAD ;
+    --color-azulcl: #C3E4FA;
+
+    --box-shadow: 2px 2px 20px rgb(37, 37, 37);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-verdecl);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
