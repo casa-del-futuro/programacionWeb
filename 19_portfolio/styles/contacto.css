@@ -1,0 +1,26 @@
+#contacto{
+    background-color: var(--color-primary1);
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.title3 {
+    text-align: center;
+    padding: 16px;
+    margin: 24px 0;
+    font-size: 40px;
+    background-color: var(--color-primary2);
+}
+#contacto a i {
+    font-size: 48px;
+    color: var(--color-secondary2);
+}
+#contacto a:hover h3{
+    visibility: hidden;
+}
+#contacto a:hover i{
+    transition: all 250ms;
+    font-size: 80px;
+}
