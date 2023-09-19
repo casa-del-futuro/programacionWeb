@@ -1,1 +1,52 @@
 https://kriptonitx.notion.site/kriptonitx/Programaci-n-Web-028594ca504e4d47ae39f86d919bb9e4
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+    .cards .red {
+        background-color: #f43f5e;
+    }
+
+    .cards .white {
+        background-color: #f8f8f8;
+        color: black;
+    }
+
+    .cards .blue {
+        background-color: #3b22c5;
+    }
+
+    .cards .card {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        text-align: center;
+        height: 200px;
+        width: 300px;
+        border-radius: 10px;
+        color: rgb(1, 1, 1);
+        cursor: pointer;
+        transition: 400ms;
+    }
+
+    .cards .card p.tip {
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+    .cards .card p.second-text {
+        font-size: .7em;
+    }
+
+    .cards .card:hover {
+        transform: scale(1.1, 1.1);
+    }
+
+    .cards:hover>.card:not(:hover) {
+        filter: blur(10px);
+        transform: scale(0.9, 0.9);
+    }

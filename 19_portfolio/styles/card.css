@@ -9,53 +9,58 @@
     padding: 16px;
     font-size: 40px;
 }
-.cards {
+.ListadoCartas {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 15px;
+    justify-content: center;
+    margin: 20px;
 }
-    .cards .red {
-        background-color: #f43f5e;
-    }
 
-    .cards .white {
-        background-color: #f8f8f8;
-        color: black;
-    }
+.carta {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #49e40c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 300ms ease-in-out;
+}
+.carta:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+.carta img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.carta div{
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.carta .info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+.carta .info h2 {
+    margin-top: 0;
+}
 
-    .cards .blue {
-        background-color: #3b22c5;
-    }
+.carta .info p {
+    margin-bottom: 0;
+}
+.carta .button {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--color-secundario);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 500ms ease-in-out;
+}
 
-    .cards .card {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-direction: row;
-        text-align: center;
-        height: 200px;
-        width: 300px;
-        border-radius: 10px;
-        color: rgb(1, 1, 1);
-        cursor: pointer;
-        transition: 400ms;
-    }
-
-    .cards .card p.tip {
-        font-size: 1em;
-        font-weight: 700;
-    }
-
-    .cards .card p.second-text {
-        font-size: .7em;
-    }
-
-    .cards .card:hover {
-        transform: scale(1.1, 1.1);
-    }
-
-    .cards:hover>.card:not(:hover) {
-        filter: blur(10px);
-        transform: scale(0.9, 0.9);
-    }
+.carta .button:hover {
+    background-color: #950ce4;
+}

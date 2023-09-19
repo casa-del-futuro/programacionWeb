@@ -1,0 +1,30 @@
+footer{
+    background-color: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    padding: 32px;
+}
+footer.tittle.contact{
+    margin-bottom: 0;
+}
+footer a i{
+    font-size: 50px;
+}
+footer a:hover{
+    transition: all 500ms;
+    transform: scale(1.1);
+    color: var(--color-orange);
+}
+footer a:hover i{
+    transition: all 100ms;
+    font-size: 60px;
+}
+footer a:hover h3{
+    transition: all 100ms;
+    font-size: 60px;
+}
+footer a i{
+    font-size: 40px;
+}

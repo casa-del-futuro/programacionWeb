@@ -4,6 +4,8 @@
 @import url(./header.css);
 @import url(./aboutme.css);
 @import url(./card.css);
+@import url(./skills.css);
+@import url(./footer.css);
 
 /* Estilos globales */
 *{
@@ -21,11 +23,16 @@
     --color-orange: #20df86;
     --box-shadow: 2px 2px 20px rgb(37, 37, 37);
 }
-.png
 html{
     scroll-behavior: smooth;
 }
-
+.title{
+    text-align: center;
+    padding: 16px;
+    margin: 25px 0;
+    font-size: 40px;
+    background-color: var(--color-orange);
+}
 body{
     background-color: var(--color-primary1);
     font-family: 'IBM Plex Mono', monospace;
