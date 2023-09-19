@@ -1,0 +1,32 @@
+h2.title.contact{
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: var(--color-primary);
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+footer a:hover{
+    transition: all 250ms;
+    transform: scale(1.1);
+    color: var(--color-orange);
+}
+
+footer a:hover i{
+    transition: all 250ms;
+    font-size: 70px;
+}
+
+footer a:hover h3{
+    visibility: hidden;
+}
+
+footer a i{
+    font-size: 56px;   
+}
